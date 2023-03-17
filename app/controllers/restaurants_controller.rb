@@ -13,8 +13,7 @@ class RestaurantsController < ApplicationController
 
     def destroy
         restaurant = find_restaurant
-        pizzas = restaurant.pizzas
-        pizzas.destroy
+        restaurant.restaurant_pizzas.destroy_all
         restaurant.destroy
         render json: {}, status: :no_content
     end
