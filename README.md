@@ -1,24 +1,47 @@
-# README
+#  Week-One Code Challenge
+## Pizzas-restaurants
+#### 17/03/2023
+#### By Elvis Gitau
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Description
+This project is a Rails API for my Moringa School Phase 4 week 1 code challenge: pizzas-restaurants.
 
-Things you may want to cover:
+The API contains Restaurant, Pizza and RestaurantPizza models and stores data for each.
 
-* Ruby version
 
-* System dependencies
 
-* Configuration
+## Setup/Installation Requirements
+Fork and clone the repository to your machine. Use 
 
-* Database creation
+    git clone git@github.com:EGN99/pizzas-restaurants.git
 
-* Database initialization
+Install the required gems by running 
 
-* How to run the test suite
+    bundle install
 
-* Services (job queues, cache servers, search engines, etc.)
+Setup the database by running
 
-* Deployment instructions
+    rails db:migrate
 
-* ...
+Seed the database with sample data by running
+
+    rails db:seed
+
+Start the server by running
+
+    rails s
+
+
+## Bugs
+There are no bugs in this project
+
+## Technologies Used
+-Ruby
+
+-SQLite
+
+## Support/Contact Details
+elvisgitau103@gmail.com
+
+(+254) 0703471813
+
