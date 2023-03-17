@@ -25,6 +25,9 @@ end
 
 group :development do
   # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
-  # gem "spring"
+  gem "spring"
+
+  # generate sample data
+  gem "faker"
 end
 
